@@ -1,4 +1,4 @@
-const API = 'https://projeto-final-frontend-sandy.vercel.app/';
+const API = 'http://localhost:3000';
 
 let currentCartId = null;
 let cartCount = 0;
@@ -101,3 +101,4 @@ async function checkout() {
 
 
 fetchPizzas();
+
