@@ -1,4 +1,4 @@
-const API = 'fetch("https://meu-backend.vercel.app/api")';
+const API = 'https://projeto-final-frontend-sandy.vercel.app/';
 
 let currentCartId = null;
 let cartCount = 0;
@@ -98,5 +98,6 @@ async function checkout() {
   document.getElementById('cart-count').textContent = 0;
   document.getElementById('cart-contents').innerHTML = "";
 }
+
 
 fetchPizzas();
