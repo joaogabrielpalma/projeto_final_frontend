@@ -1,4 +1,4 @@
-const API = 'http://localhost:3000';
+const API = 'fetch("https://meu-backend.vercel.app/api")';
 
 let currentCartId = null;
 let cartCount = 0;
