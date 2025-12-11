@@ -1,4 +1,4 @@
-const API = 'http://localhost:3000';
+const API = 'https://backend-final-b5f6.onrender.com/';
 
 let currentCartId = null;
 let cartCount = 0;
@@ -101,4 +101,5 @@ async function checkout() {
 
 
 fetchPizzas();
+
 
